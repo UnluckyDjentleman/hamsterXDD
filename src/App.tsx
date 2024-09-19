@@ -19,37 +19,37 @@ function App() {
     },
     {
       level: 2,
-      clicksCountToUpgrade: 50,
+      clicksCountToUpgrade: 5,
       image: background2,
       color: 'darkred'
     },
     {
       level: 3,
-      clicksCountToUpgrade: 100,
+      clicksCountToUpgrade: 10,
       image: background3,
       color: 'tomato'
     },
     {
       level: 4,
-      clicksCountToUpgrade: 200,
+      clicksCountToUpgrade: 20,
       image: background4,
       color: 'gold'
     },
     {
       level: 5,
-      clicksCountToUpgrade: 500,
+      clicksCountToUpgrade: 50,
       image: background5,
       color: 'lime'
     },
     {
       level: 6,
-      clicksCountToUpgrade: 1000,
+      clicksCountToUpgrade: 100,
       image: background6,
       color: 'deepskyblue'
     },
     {
       level: 7,
-      clicksCountToUpgrade: 2000,
+      clicksCountToUpgrade: 200,
       image: background7,
       color: 'darkorchid'
     }
