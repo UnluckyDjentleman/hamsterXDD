@@ -71,9 +71,10 @@ function App() {
   }
 
   return (
-    <div>
-      <h1 style={{fontSize: '10vh'}}>Crypto Scam</h1>
-      <div style={{display: 'flex', justifyContent: 'center', width:"20vw", height:"20vw", borderRadius: "100%", backgroundColor: color, padding: ".2vw", border: '20px solid rgba(0,0,0, 0.25)'}}>
+    <>
+    <h1 style={{fontSize: '7vh'}}>Crypto Scam</h1>
+    <div style={{margin: '0 auto'}}>
+      <div style={{display: 'flex', justifyContent: 'center', width:"40vh", height:"40vh", borderRadius: "100%", backgroundColor: color, margin: '0 auto', border: '20px solid rgba(0,0,0, 0.25)'}}>
         <img src={background} onClick={onClickHamster} />
       </div>
       <div style={{display: 'flex', justifyContent:'space-between'}}>
@@ -86,6 +87,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
